@@ -1,0 +1,319 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "bienes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "descripcion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "departamento",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bienes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "noInventario",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bienes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "departamento",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "noInventario",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bienes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "resguardante",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "departamento",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bienes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "resguardante",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "noInventario",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "checadas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "periodo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "checadas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tarjeta",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "empleados",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "departamento",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tipo",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "empleados",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "apellidosNombre",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "empleados",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tipo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "apellidosNombre",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "equiposComputo",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "departamento",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "noSerie",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "grupos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "calificar",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "docente",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "periodo",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "horarios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "clavePlan",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "periodo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "semestre",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "horarios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "periodo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`#RESPROF`.creditos",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "partidas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "partida_especifica",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "descripcion",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "prestamosLaboratorio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nombre",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "fechaPrestamo",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "residencias",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "control",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "periodo",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seleccionMaterias",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idGrupo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "serviciosComputo",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "fechaServicio",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "serviciosComputo",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idEquipo",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "fechaServicio",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "serviciosComputo",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "noInventario",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "fechaServicio",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

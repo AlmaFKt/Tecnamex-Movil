@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.appspot.teczacatepec.login.app-mergeDebugResources-47:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\almaf\\.gradle\\caches\\transforms-3\\59d2e583cbd5ee7fcf74d60afa9d3405\\transformed\\appcompat-1.2.0\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
